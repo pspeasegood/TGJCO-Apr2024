@@ -31,8 +31,8 @@ Result: 12
 
 Input: 2d10 + 3d8 - 5
 Output:
-Rolls: 7, 10, 2, 6, 1
-Result: 21
+Rolls: 7, 10, 2, 6, 
+Result: 24
 
 
 Input: 2d13
