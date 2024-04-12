@@ -25,7 +25,7 @@ public class DiceExpression {
     public void evaluate() {
         int total = 0;
         // Pattern to match numbers, dice rolls, and arithmetic operations
-        Pattern numberPattern = Pattern.compile("[+-\\\\*]?\\d*[Dd]?\\d+");
+        Pattern numberPattern = Pattern.compile("[+-\\\\*]?\\d*[Dd]?\\d+(!)?");
 
         Matcher matcher = numberPattern.matcher(expression);
         while (matcher.find()) {
