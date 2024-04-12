@@ -4,6 +4,7 @@ Text-based Dice Roller Challenge
 
 ## Objective:
 Your task is to develop a text-based dice roller program in Java. The program should accept inputs in the format of "NdM", where N is the number of dice to roll, and M is the type of dice (e.g., 2d6 for rolling two six-sided dice). The program should support various types of dice, including d2, d3, d4, d6, d8, d10, d12, d20, and d100. Additionally, it should handle basic arithmetic operations such as addition (+), subtraction (-), and multiplication (*), including multiple dice rolls within a single expression.
+
 Requirements:
 Accept input in the format of "NdM" where N is the number of dice and M is the type of dice.
 Support dice types: d2, d3, d4, d6, d8, d10, d12, d20, and d100.
